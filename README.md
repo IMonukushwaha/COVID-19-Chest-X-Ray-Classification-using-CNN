@@ -145,5 +145,6 @@ without proper validation by qualified medical professionals.
 ## References
 - TensorFlow / Keras Documentation
 - Dataset -> https://www.kaggle.com/code/monukushwahajarvis/covid-19-detection-resnet50-cnn-fine-tunning
-The model uses **fine-tuned ResNet50** pretrained on ImageNet as a feature extractor,
+  
+The model uses **fine-tuned ResNet50**pretrained on ImageNet as a feature extractor,
 with a custom classification head:
