@@ -143,10 +143,7 @@ without proper validation by qualified medical professionals.
 ---
 
 ## References
-
-- [ResNet50 — Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
-- [Kaggle Dataset — COVID-19 Pneumonia Normal Chest X-Ray](https://www.kaggle.com/datasets/sachinkumar413/covid-pneumonia-normal-chest-xray-images)
 - TensorFlow / Keras Documentation
-
+- Dataset -> https://www.kaggle.com/code/monukushwahajarvis/covid-19-detection-resnet50-cnn-fine-tunning
 The model uses **fine-tuned ResNet50** pretrained on ImageNet as a feature extractor,
 with a custom classification head:
