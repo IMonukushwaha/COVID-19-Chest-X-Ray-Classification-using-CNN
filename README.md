@@ -3,7 +3,7 @@
 A deep learning model that classifies chest X-ray images into three categories:
 **COVID-19**, **Pneumonia**, and **Normal** — using transfer learning with ResNet50.
 
-## 📊 Results
+## Results
 
 | Metric    | Score  |
 |-----------|--------|
@@ -14,7 +14,7 @@ A deep learning model that classifies chest X-ray images into three categories:
 
 ---
 
-## 🗂️ Dataset
+## Dataset
 
 **COVID-19 Pneumonia Normal Chest X-Ray PA Dataset** (Kaggle)
 - 6,902 images across 3 classes: `covid`, `normal`, `pneumonia`
@@ -23,7 +23,7 @@ A deep learning model that classifies chest X-ray images into three categories:
 
 ---
 
-## 🏗️ Model Architecture
+## Model Architecture
 
 The model uses **fine-tuned ResNet50** pretrained on ImageNet as a feature extractor,
 with a custom classification head:
@@ -32,7 +32,7 @@ with a custom classification head:
 
 ---
 
-## ⚙️ Training Configuration
+## Training Configuration
 
 | Parameter       | Value                        |
 |-----------------|------------------------------|
@@ -55,7 +55,7 @@ with a custom classification head:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -99,11 +99,11 @@ sample_predict(
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ---
 
-## 📈 Training Curves
+## Training Curves
 
 The model achieved **~95% training accuracy** and **~95% validation accuracy**
 by epoch 8, with early stopping triggered at epoch 18 due to no improvement
@@ -111,7 +111,7 @@ in validation loss.
 
 ---
 
-## 🧪 Evaluation
+## Evaluation
 
 ### Confusion Matrix
 
@@ -124,7 +124,7 @@ Predicted
 
 ---
 
-## 🔧 Fine-Tuning Strategy
+## Fine-Tuning Strategy
 
 ResNet50's first 140 layers are frozen; only the final 40 layers
 are fine-tuned. This approach:
@@ -134,7 +134,7 @@ are fine-tuned. This approach:
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This model is intended for **research and educational purposes only**.
 It should **not** be used for clinical diagnosis or medical decision-making
@@ -142,7 +142,7 @@ without proper validation by qualified medical professionals.
 
 ---
 
-## 📚 References
+## References
 
 - [ResNet50 — Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
 - [Kaggle Dataset — COVID-19 Pneumonia Normal Chest X-Ray](https://www.kaggle.com/datasets/sachinkumar413/covid-pneumonia-normal-chest-xray-images)
